@@ -1,0 +1,6 @@
+Vim Folder
+
+To setup:
+1 - Clone this repo into ~ and rename as .vim
+2 - Setup symlink from .vim/vimrc to ~/.vimrc using 'ln -s ~/.vim/vimrc ~/.vimrc'
+3 - Open Vim and run the Ex command :BundleInstall
