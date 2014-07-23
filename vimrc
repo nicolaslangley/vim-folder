@@ -19,6 +19,9 @@ Plugin 'jcf/vim-latex'
 Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'jansenm/vim-cmake'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tyok/ack.vim'
+Plugin 'tyok/nerdtree-ack'
 
 " Plugins for C# support
 Plugin 'nosami/Omnisharp'
