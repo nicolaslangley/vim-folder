@@ -16,10 +16,12 @@ Plugin 'honza/vim-snippets'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'jcf/vim-latex'
+Plugin 'scrooloose/syntastic'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'jansenm/vim-cmake'
 
 " Plugins for C# support
 Plugin 'nosami/Omnisharp'
-Plugin 'scrooloose/syntastic'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-dispatch'
 
