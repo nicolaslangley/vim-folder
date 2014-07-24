@@ -22,11 +22,9 @@ Plugin 'jansenm/vim-cmake'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tyok/ack.vim'
 Plugin 'tyok/nerdtree-ack'
-
-" Plugins for C# support
-Plugin 'nosami/Omnisharp'
 Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-dispatch'
+
+let g:ycm_global_ycm_extra_conf = '.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
 " Plugin and indent usage
 filetype plugin indent on
