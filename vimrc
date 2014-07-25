@@ -10,12 +10,12 @@ Plugin 'gmarik/vundle'
 
 " Plugins used by vundle
 Plugin 'tpope/vim-sensible'
-Plugin 'tpope/vim-surround'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'jcf/vim-latex'
+" Plugin 'tpope/vim-surround'
+" Plugin 'garbas/vim-snipmate'
+" Plugin 'honza/vim-snippets'
+" Plugin 'MarcWeber/vim-addon-mw-utils'
+" Plugin 'tomtom/tlib_vim'
+" Plugin 'jcf/vim-latex'
 Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'jansenm/vim-cmake'
@@ -24,7 +24,9 @@ Plugin 'tyok/ack.vim'
 Plugin 'tyok/nerdtree-ack'
 Plugin 'kien/ctrlp.vim'
 
-let g:ycm_global_ycm_extra_conf = '.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+" Shortcuts
+map <silent> <C-f> :NERDTreeFocus<CR>
+map <silent> <C-n> :NERDTreeToggle<CR>
 
 " Plugin and indent usage
 filetype plugin indent on
@@ -38,7 +40,3 @@ set softtabstop=4
 
 " Vim-latex options
 let g:Tex_DefaultTargetFormat='pdf'
-
-" Omnisharp options
-autocmd FileType cs setlocal omnifunc=OmniSharp#Complete
-set noshowmatch
