@@ -9,7 +9,7 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 
 " Plugins used by vundle
-Plugin 'tpope/vim-sensible'
+" Plugin 'tpope/vim-sensible'
 " Plugin 'tpope/vim-surround'
 " Plugin 'garbas/vim-snipmate'
 " Plugin 'honza/vim-snippets'
@@ -37,6 +37,9 @@ set number
 set expandtab
 set shiftwidth=4
 set softtabstop=4
+
+" YCM options
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 
 " Vim-latex options
 let g:Tex_DefaultTargetFormat='pdf'
