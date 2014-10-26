@@ -41,5 +41,10 @@ set softtabstop=4
 " YCM options
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 
+" Close preview window on movement or entering of insert mode
+autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+
+
 " Vim-latex options
 let g:Tex_DefaultTargetFormat='pdf'
