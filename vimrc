@@ -17,12 +17,22 @@ Plugin 'gmarik/vundle'
 " Plugin 'tomtom/tlib_vim'
 " Plugin 'jcf/vim-latex'
 Plugin 'scrooloose/syntastic'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'jansenm/vim-cmake'
+" YCM
+Plugin 'Valloric/YouCompleteMe'
+
+" Nerdtree
 Plugin 'scrooloose/nerdtree'
 Plugin 'tyok/ack.vim'
 Plugin 'tyok/nerdtree-ack'
 Plugin 'kien/ctrlp.vim'
+" Pandoc support
+Plugin 'vim-pandoc/vim-pandoc'
+Plugin 'vim-pandoc/vim-pandoc-syntax'
+
+" Set colorscheme
+colorscheme slate
+let macvim_skip_colorscheme=1
 
 " Shortcuts
 map <silent> <C-f> :NERDTreeFocus<CR>
