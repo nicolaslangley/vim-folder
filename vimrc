@@ -34,6 +34,10 @@ Plugin 'vim-pandoc/vim-pandoc-syntax'
 colorscheme slate
 let macvim_skip_colorscheme=1
 
+" Search settings 
+:set hlsearch
+:set incsearch
+
 " Shortcuts
 map <silent> <C-f> :NERDTreeFocus<CR>
 map <silent> <C-n> :NERDTreeToggle<CR>
