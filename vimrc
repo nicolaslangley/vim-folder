@@ -9,6 +9,7 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 
 " Plugins used by vundle
+Plugin 'JuliaLang/julia-vim'
 " Plugin 'tpope/vim-sensible'
 " Plugin 'tpope/vim-surround'
 " Plugin 'garbas/vim-snipmate'
@@ -20,6 +21,12 @@ Plugin 'scrooloose/syntastic'
 Plugin 'jansenm/vim-cmake'
 " YCM
 Plugin 'Valloric/YouCompleteMe'
+
+" Tasklist Plugin
+Plugin 'vim-scripts/TaskList.vim'
+
+" Dash
+Plugin 'rizzatti/dash.vim'
 
 " Nerdtree
 Plugin 'scrooloose/nerdtree'
