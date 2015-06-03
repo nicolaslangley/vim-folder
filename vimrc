@@ -28,6 +28,9 @@ Plugin 'vim-scripts/TaskList.vim'
 " Dash
 Plugin 'rizzatti/dash.vim'
 
+" Git plugin
+Plugin 'tpope/vim-fugitive'
+
 " Nerdtree
 Plugin 'scrooloose/nerdtree'
 Plugin 'tyok/ack.vim'
